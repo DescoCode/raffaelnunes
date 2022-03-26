@@ -25,7 +25,7 @@
 
   
   $contact->smtp = array(
-    'host' => 'outlook.com',
+    'host' => 'smtp.office365.com',
     'username' => 'nunes_rafael',
     'password' => 'Jessi22081395$',
     'port' => '587'
