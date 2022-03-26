@@ -25,10 +25,12 @@
 
   
   $contact->smtp = array(
-    'host' => 'smtp.office365.com',
+    'host' => 'smtp-mail.outlook.com',
     'username' => 'nunes_rafael',
     'password' => 'Jessi22081395$',
     'port' => '587'
+    'Security/Connection' => 'Type: tls',
+    'AuthMode'=> 'login',
   );
   
 
