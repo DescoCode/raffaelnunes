@@ -19,16 +19,16 @@
   $contact->ajax = true;
   
   $contact->to = $receiving_email_address;
-  $contact->from_name = $_POST['name'];
-  $contact->from_email = $_POST['email'];
-  $contact->subject = $_POST['subject'];
+  $contact->from_name = $_POST['Nome'];
+  $contact->from_email = $_POST['E-mmail'];
+  $contact->subject = $_POST['Objetivo'];
 
   // Uncomment below code if you want to use SMTP to send emails. You need to enter your correct SMTP credentials
   
   $contact->smtp = array(
-    'host' => 'git@github.com:DescoCode/raffaelnunes.git',
-    'username' => 'DescoCode',
-    'password' => 'ssh-ed25519',
+    'host' => 'smtp.office365.com',
+    'username' => 'rafael.nunes1618',
+    'password' => 'Jessi1618$',
     'port' => '587'
   );
  
